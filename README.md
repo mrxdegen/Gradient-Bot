@@ -1,4 +1,4 @@
-# **Gradient Network Bot**
+# **Gradient Bot**
 <br><br><br>
 
 ## **Owerview**
@@ -7,7 +7,7 @@
 - **Installation**: [Installation Guide](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/installation-guide)  
 - **Interface**: [Interface Owerview](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/interface-overview)  
 
-## **Purchase Information**
+## **Purchase License Information**
 
 - **Price**: $150  
 
@@ -48,7 +48,7 @@ Screen ensures the bot continues running even if the terminal session is closed.
 
 3. **Run the bot**:  
    ```bash
-   ./gradientbot-v-1.1.5
+   ./gradientbot
    ```
 
 4. **Detach the screen session** (leave the session running):  
@@ -68,8 +68,8 @@ Screen ensures the bot continues running even if the terminal session is closed.
   screen -ls
   ```
 
-### **5. Troubleshooting**
+### **5. Problems**
 - If you encounter a **permission denied error**, run the following command before starting the bot:  
   ```bash
-  chmod +x /home/gradient-example-bot/gradientbot-v-1.1.5
+  chmod +x /home/gradient-example-bot/gradientbot
   ```
