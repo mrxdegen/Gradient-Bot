@@ -1,75 +1,41 @@
-# **Gradient Bot**
-<br><br><br>
+# Gradient Bot
 
-## **Owerview**
+## 🌟 Overview
+Gradient Bot is an advanced automation tool designed to streamline account registration and farming processes on Gradient Network. With its powerful features and user-friendly interface, it offers a seamless experience for users looking to maximize their efficiency on the platform.
 
-- **Getting Started**: [User Guide](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x)  
-- **Installation**: [Installation Guide](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/installation-guide)  
-- **Interface**: [Interface Owerview](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/interface-overview)  
+### 📚 Documentation Links
+- [User Guide](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x)
+- [Installation Guide](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/installation-guide)
+- [Interface Overview](https://jammers-organization.gitbook.io/gradient-network-bot-or-jambit-x-mr.-x/interface-overview)
 
-## **Purchase License Information**
+## 💫 Key Information
+### Purchase Details
+- **Price**: $150
+- **Contact**: [Telegram](https://t.me/Jaammerr)
 
-- **Price**: $150  
+## ✨ Features
 
-## **System Requirements**
+### 🔄 Core Functionality
+- ✅ Automatic account registration
+- 🌾 Automated farming operations
+- 🔄 Smart proxy auto-swap system
+- 🔁 Automated account re-verification
+- 🎯 Precise captcha solving integration
 
-- **Operating System**: Windows/Linux (Ubuntu 22.04)  
-- **Internet Connection**: Required  
-- **Additional Requirements**:  
-  - Valid email accounts for registration  
-  - Proxy configurations (if applicable)  
+### 📊 Management & Analytics
+- 📧 Advanced email verification system
+- 🎟️ Seamless invite code binding
+- 📈 Detailed statistics export to CSV
+- 📤 Auto-export of unverified accounts
+- 📉 Real-time performance monitoring
 
----
+### 💡 Advanced Capabilities
+- 🔒 Secure data management
+- 🔍 Comprehensive logging system
+- ⚡ High-performance architecture
 
-## **Instructions for running Gradient Network Bot on Ubuntu 22.04**
-
-### **1. Create a Working Folder for the Bot**
-Run the following command to create a working directory:  
-```bash
-mkdir /home/gradient-example-bot
-```
-
-### **2. Transfer Files**
-Use an FTP/SFTP client to transfer the **Linux executable file** and the **`.env` file** (containing your secret data and settings) to the working directory:  
-`/home/gradient-example-bot`  
-
-### **3. Run the Bot in a Screen Session**  
-Screen ensures the bot continues running even if the terminal session is closed.
-
-1. **Navigate to your working folder**:  
-   ```bash
-   cd /home/gradient-example-bot
-   ```
-
-2. **Create a screen session**:  
-   ```bash
-   screen -S gradient-bot-session
-   ```
-
-3. **Run the bot**:  
-   ```bash
-   ./gradientbot
-   ```
-
-4. **Detach the screen session** (leave the session running):  
-   Press `Ctrl + A`, then `D`.
-
-### **4. Other Useful Commands**
-- **To delete a session**:  
-  ```bash
-  screen -X -S gradient-bot-session quit
-  ```
-- **To re-enter a session**:  
-  ```bash
-  screen -r gradient-bot-session
-  ```
-- **To view all active sessions**:  
-  ```bash
-  screen -ls
-  ```
-
-### **5. Problems**
-- If you encounter a **permission denied error**, run the following command before starting the bot:  
-  ```bash
-  chmod +x /home/gradient-example-bot/gradientbot
-  ```
+### 🛡️ Security Features
+- 🔐 Secure account storage
+- 🌐 Proxy protection system
+- 🤖 Anti-detection measures
+- 📝 Detailed operation logs
