@@ -1,0 +1,79 @@
+# IMAP Settings
+imap_settings:
+
+  - name: iCloud
+    mail_domains:
+      - icloud.com
+      - me.com
+      - mac.com
+    imap_domain: imap.mail.me.com
+
+  - name: Gmail
+    mail_domains:
+      - gmail.com
+      - googlemail.com
+    imap_domain: imap.gmail.com
+
+  - name: GMX
+    mail_domains:
+      - gmx.com
+      - gmx.de
+      - gmx.net
+    imap_domain: imap.gmx.com
+
+  - name: Rambler
+    mail_domains:
+      - rambler.ru
+      - ro.ru
+    imap_domain: imap.rambler.ru
+
+  - name: Firstmail
+    mail_domains:
+      - fabrikamail.com
+      - exartimail.com
+      - bulletsmail.com
+      - firstmail.com
+      - sfirstmail.com
+      - dfirstmail.com
+      - superocomail.com
+      - velismail.com
+      - reevalmail.com
+      - veridicalmail.com 
+      - fabrikamail.com
+      - thermomagnmail.ru
+    imap_domain: imap.firstmail.ltd
+
+# Captcha Settings
+captcha_service: capsolver # 2captcha, capsolver, capmonster, anticaptcha
+captcha_api_key: CAP-F8D029C432C6DF727F35B12F36F714E6
+
+# Threads Settings
+register_threads: 15
+stats_threads: 500
+farm_threads: 500
+
+# Nodes Settings
+node_connections_stats_update_interval: 15
+node_reconnect_delay: 150
+node_tasks_per_connection_count: 5
+node_task_delay: 30
+
+# Delays Settings
+register_delay_range: 
+  - 50
+  - 500
+farm_delay_range: 
+  - 50
+  - 500
+stats_update_delay_range: 
+  - 15
+  - 50
+
+error_attempts: 3
+error_delay: 300
+
+# Referral Codes
+ref_codes:
+  - 4X6TN1
+  - 4X6TN1
+  - 4X6TN1
