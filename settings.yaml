@@ -45,7 +45,7 @@ imap_settings:
 
 # Captcha Settings
 captcha_service: capsolver # 2captcha, capsolver, capmonster, anticaptcha
-captcha_api_key: CAP-F8D029C432C6DF727F35B12F36F714E6
+captcha_api_key:
 
 # Threads Settings
 register_threads: 15
